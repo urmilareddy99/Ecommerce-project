@@ -23,6 +23,16 @@ Ensure the shopping cart is easily accessible on every page and that the checkou
   <li>Rublo Authenticator</li>
   <li>Stripe Payment Gateway for Woocoomerce</li>
 </ul>
+<b>Individual Contribution</b>
+<h4>Rublon setup and Integration with wordpress</h4>
+In order to use rublon,the person has to setup and create an admin account in <a href="https://admin.rublon.net/auth/login">Rublon</a>
+<img src="https://github.com/urmilareddy99/Ecommerce-project/assets/127900238/0a963f9a-d496-4b51-ad54-f159b6b42af2">
+on creating an account,Go to applications and create an application with the below information.
+<img src="https://github.com/urmilareddy99/Ecommerce-project/assets/127900238/8ef097c8-3169-4ebf-99fb-e3cc7214283a">
+Use the system token and secret key in admin console to integrate with wordpress.
+<img src="https://github.com/urmilareddy99/Ecommerce-project/assets/127900238/2093edda-7585-419c-95bb-443c0eecbdb4">
+<img src="https://github.com/urmilareddy99/Ecommerce-project/assets/127900238/6899f47a-4b8e-4b6c-adf4-4ddaf5367ee5">
+On saving with above information.Rublon is integrated with wordpress.
 <h4>SSL Status</h4>
 The website is secured and has SSL certificate installed.
 <img src="https://github.com/urmilareddy99/Ecommerce-project/assets/127900238/bf44b04c-ed11-4620-8a68-c92dae7fc2dc">
@@ -41,8 +51,9 @@ Click on connect now.The table of my wordpress site are stored in mysql database
 <img src="https://github.com/urmilareddy99/Ecommerce-project/assets/127900238/50dac135-cb5a-4b39-9570-d1c4dfd69b44">
 3.  The below screenshot is from the account page on logging in.
 <img src="https://github.com/urmilareddy99/Ecommerce-project/assets/127900238/0870abfc-1802-46e2-9264-8c9758bc455d">
-4.  When the user is logging in ,it asks you to setup MFA.I have used Rublon Multifactor authentication.
+4.  When the user is logging in ,it asks you to setup MFA.I have used Rublon Multifactor authentication.My contribution to the project is to setup MFA.
 <img src="https://github.com/urmilareddy99/Ecommerce-project/assets/127900238/5a27e3f7-7fab-4847-98e7-82ca9b994361">
+
 5.  The user has to setup MFA by installing Rublon authenticator either from playstore/Appstore and scan the QR code on installing to add the account.
 <img src="https://github.com/urmilareddy99/Ecommerce-project/assets/127900238/8974632b-3ed7-4c51-b80f-65a4532fd7fa">
 6.  The user need to scan the qr code as second factor authentication for each time the user is logging in.
